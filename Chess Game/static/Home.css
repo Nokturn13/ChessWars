@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+*,
+html,
+body {
+    background-color: black;
+    font-family: "Bitter", 'Courier New', Courier, monospace;
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 5rem;
+    color: white;
+}
+
+.center {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(1fr, 500px);
+    grid-template-rows: repeat(auto-fit, 1fr);
+
+}
+
+.linkstyle {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+}
+
+.linkstyle a {
+    text-decoration: none;
+}
+
+.inputboxes {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    appearance: inherit;
+    background-color: black;
+    border-radius: 5px;
+    outline-color: white;
+    font-size: 14px;
+    margin: 0.25em;
+    padding: 1em;
+    color: white;
+}
+

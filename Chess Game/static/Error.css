@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+*,
+html,
+body {
+    background-color: black;
+    font-family: "Bitter", 'Courier New', Courier, monospace;
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+}
+
+.center {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(1fr, 500px);
+    grid-template-rows: repeat(auto-fit, 1fr);
+
+}
